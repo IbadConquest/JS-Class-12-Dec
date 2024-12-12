@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Class 12 Dec</title>
+</head>
+<body>
+    
+
+<h1 id="demo"></h1>
+    <script>
+        //create a map
+        const xyz = new Map([
+            ["apples",500],
+            ["Oranges",200],
+            ["Bananas",400]
+
+        ]);
+        
+        xyz.set("apples",800);
+        
+
+        let numb = xyz.get("apples" , "watermelon");
+        console.log(numb)
+        document.getElementById('demo').innerHTML = numb + "watermelon"
+
+
+    </script>
+</body>
+</html>
